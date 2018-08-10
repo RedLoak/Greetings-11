@@ -21,9 +21,10 @@ Source files are based on the following tutorial: http://openjdk.java.net/projec
   Greetings-11
   ├─ bin                // generated folder, contains the .class files
   ├─ build              // generated folder, contains the runtime image
-  ├─ ext                // contains the external tools
-     └─ java
-        └─ openjdk-11
+  │  └─ GreetingsApp
+  ├─ ext                // contains external tools
+  │  └─ java
+  │     └─ openjdk-11
   ├─ lib                // generated folder, contains the .jar files
   └─ src                // contains the source files
 </pre>
