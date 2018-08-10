@@ -3,6 +3,8 @@ First experiment with OpenJDK 11, no IDE required, uses Windows script files.
 
 Source files are based on the following tutorial: http://openjdk.java.net/projects/jigsaw/quick-start. The project defines and uses two Java modules, builds and packs them, and generates a runtime image with a launcher.
 
+OpenJDK 11 EA 25 download link: https://download.java.net/java/early_access/jdk11/25/GPL/openjdk-11-ea+25_windows-x64_bin.zip.
+
 ## How-to
 
 <pre>
