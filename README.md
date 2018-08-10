@@ -6,7 +6,7 @@ Source files are based on the following tutorial: http://openjdk.java.net/projec
 ## How-to
 
 <pre>
-1. Unzip ext\java\openjdk-11.zip.
+1. Copy an OpenJDK 11 in the "ext\java\" folder.
 2. Update the "JDK_HOME" variable in "0-env.bat" if necessary.
 3. Launch "1-build.bat"                         to generate .class files.
 4. Launch "2-runAfterBuild.bat"                 to run the application from the .class files.
@@ -18,10 +18,12 @@ Source files are based on the following tutorial: http://openjdk.java.net/projec
 
 ## Files structure
 <pre>
-  Greetings-11  
-  ├─ bin        // generated folder, contains the .class files  
-  ├─ build      // generated folder, contains the runtime image  
-  ├─ ext        // contains the JDK  
-  ├─ lib        // generated folder, contains the .jar files  
-  └─ src        // contains the source files  
+  Greetings-11
+  ├─ bin                // generated folder, contains the .class files
+  ├─ build              // generated folder, contains the runtime image
+  ├─ ext                // contains the external tools
+     └─ java
+        └─ openjdk-11
+  ├─ lib                // generated folder, contains the .jar files
+  └─ src                // contains the source files
 </pre>
