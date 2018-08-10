@@ -1,0 +1,19 @@
+Copy open JDK folder here.
+
+Example: 
+<pre>
+  openjdk-11
+  ├─ bin
+  │  └─ ...
+  ├─ conf
+  │  └─ ...
+  ├─ include
+  │  └─ ...
+  ├─ jmods
+  │  └─ ...
+  ├─ legal
+  │  └─ ...
+  ├─ lib
+  │  └─ ...
+  └─ release
+</pre>
