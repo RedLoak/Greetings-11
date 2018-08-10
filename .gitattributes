@@ -1,3 +1,8 @@
 $ cat .gitattributes
-*.rb linguist-language=Java
-*.rb linguist-vendored=Java
+*.java linguist-language=Java
+0-env.bat linguist-vendored=false
+1-build.bat linguist-vendored=false
+2-runAfterBuild.bat linguist-vendored=false
+3-jar.bat linguist-vendored=false
+4-runAfterJar.bat linguist-vendored=false
+5-jlink.bat linguist-vendored=false
