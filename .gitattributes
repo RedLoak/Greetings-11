@@ -1,2 +1,4 @@
 $ cat .gitattributes
 *.bat linguist-detectable=false
+.gitattributes export-ignore  
+.gitignore export-ignore
