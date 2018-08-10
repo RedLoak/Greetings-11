@@ -1,2 +1,2 @@
 $ cat .gitattributes
-*.bat linguist-detectable=true
+*.bat linguist-detectable=false
