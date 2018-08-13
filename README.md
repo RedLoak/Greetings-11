@@ -11,14 +11,11 @@ No IDE required, uses Windows script files.
 
 <pre>
 1. Copy an OpenJDK 11 in the "ext\java\" folder.
-2. Update the "JDK_HOME" variable in "0-env.bat" if necessary.
-3. Launch "1-build.bat"                         to generate .class files.
-4. Launch "2-runAfterBuild.bat"                 to run the application from the .class files.
-5. Launch "3-jar.bat"                           to pack the .class files in .jar files.
-6. Launch "4-runAfterJar.bat"                   to run the application from the jar files.
-7. Launch "5-jlink.bat"                         to create a runtime image of the application and its launcher.
-8. Launch "build\GreetingsApp\bin\launch.bat"   to start the application from the runtime image.
+2. Update the "JDK_HOME" variable in "build.bat" if necessary.
+3. Launch "build.bat".
 </pre>
+
+The application will be created in the "build\GreetingsApp" folder.
 
 ## Files structure
 <pre>
@@ -29,6 +26,7 @@ No IDE required, uses Windows script files.
   ├─ ext                // contains external tools
   │  └─ java
   │     └─ openjdk-11
+  │  └─ shortcut
   ├─ lib                // generated folder, contains the .jar files
   └─ src                // contains the source files
 </pre>
