@@ -24,8 +24,8 @@ The application will be created in the "build\GreetingsApp" folder.
   ├─ build              // generated folder, contains the runtime image
   │  └─ GreetingsApp
   ├─ ext                // contains external tools
-  │  └─ java
-  │     └─ openjdk-11
+  │  ├─ java
+  │  │  └─ openjdk-11
   │  └─ shortcut
   ├─ lib                // generated folder, contains the .jar files
   └─ src                // contains the source files
